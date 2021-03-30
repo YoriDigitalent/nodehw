@@ -1,0 +1,19 @@
+{
+  "name": "nodehelloworld",
+  "version": "1.0.0",
+  "description": "Dockerise Node Hello World",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodehw"
+  },
+  "author": "yk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

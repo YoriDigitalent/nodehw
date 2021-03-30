@@ -1,0 +1,14 @@
+ersion: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hell0:1.0
+    container_name: hellow
+    restart: always
+    ports:
+      - "8000:8080"
+    networks:
+      - app-network
